@@ -31,7 +31,8 @@ sudo apt install phpmyadmin
 ### Step 3: Include phpMyAdmin Configuration in Apache
 
 ```bash
-
+sudo nano /etc/apache2/apache2.conf
+# add below line in the last
 Include /etc/phpmyadmin/apache.conf
 ```
  This command appends the necessary phpMyAdmin configuration to Apache’s main configuration file.
